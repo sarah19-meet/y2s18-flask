@@ -8,9 +8,27 @@
 
 
 <body>
-	
-	<h1>Swimming</h1>
-	<p> it's the best sport because you're clean when you're sweating</p>
+<div>
+	<div class="header">Swimming</div>
+	<div class="sidebar">
 
+	
+	<p> it's the best sport because you're clean when you're 
+	sweating</p>
+</div>
+<div>
+	{%if likes_same_sport==True%}
+	<h2> Fav_Swimmers</h2>
+	<ul>
+		{%for swimmer in fav_swimmers%}
+		<li> {{swimmer}}</li>
+		{%endfor%}
+	</ul>
+	{%else%}
+	<p> tamara doesnt like the same sport</p>
+	{%endif%}
+<img src="http://www.geek.com/wp-content/uploads/2016/08/rio-pool.jpg">
+
+</div>
 </body>
 </html>

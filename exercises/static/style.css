@@ -1,2 +1,24 @@
 /* Put your CSS Styling here! */
-body{background-color: purple};
+body{background-color: purple;}
+body {
+    margin: 0;
+}
+
+.header {
+    font-size: 40pt;
+    font-family: sans-serif;
+    height: 60px;
+    border:1px ;
+    padding:1px 2px 3px 4px;}
+
+
+.sidebar {
+    width: 180px;
+    background: yellow;
+    position: fixed;
+    top: 20px;
+    left:430px;
+    height: 20%;
+    padding:15px 5px;
+
+}
